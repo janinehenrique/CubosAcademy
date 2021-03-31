@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Almond Nougat';
+    src: url(assets/almondnougat.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Almond Nougat', cursive; 
+}
+
+body {
+    background-image: url(assets/background.jpg);
+    background-color: white;
+    background-repeat: repeat;
+    background-size: auto;
+    position: initial;
+}
+
+h1 {
+    font-size: 60px;
+    background-color: #FCD9AF;
+    margin: 0 0 50px 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px 0 black;
+}
+
+.conteudo {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+span {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 5px 15px 5px 15px;
+}
+
+.esquerda {
+   margin-left: 45px;
+}
+
+.meio {
+    margin: 0 auto;
+}
+
+.direita {
+    margin-left:auto;
+    margin-right: 45px;
+}
+
+.laranja {
+    background-color:orange;
+}
+
+.marrom {
+    background-color:orangered ;
+}
+
+.bege {
+    background-color: peru;
+}
